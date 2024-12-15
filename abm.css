@@ -1,0 +1,176 @@
+/* Fondo de la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('imagenes/9.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.7); /* Más transparencia: 0.7 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Suaviza el efecto de sombra */
+    padding: 20px 30px;
+    backdrop-filter: blur(8px); /* Efecto de desenfoque al fondo (opcional) */
+}
+
+/* Encabezados */
+h2, h3 {
+    font-weight: 700;
+    color: #4c63af;
+    margin-bottom: 20px;
+}
+
+/* Botón de cerrar sesión */
+a.btn-danger {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Formulario de búsqueda */
+.input-group {
+    display: flex;
+    align-items: center; /* Alinea los elementos dentro del formulario */
+    margin-bottom: 20px;
+    gap: 10px; /* Agrega espacio entre los elementos */
+}
+
+/* Campo de texto de búsqueda */
+.input-group input {
+    border: 2px solid #4c5baf;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 250px; /* Limita el tamaño */
+}
+
+/* Filtro por nivel de estudios */
+.input-group select {
+    border: 2px solid #4c5baf;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 180px; /* Tamaño limitado para el filtro */
+}
+
+/* Botón de búsqueda */
+.input-group button {
+    background-color: #4c74af;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #454ea0;
+}
+
+/* Estilo de formulario */
+form {
+    margin-bottom: 30px;
+}
+
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #3d5079;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botones de la tabla */
+.table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.table td a.btn-warning {
+    background-color: #FFC107;
+    color: #fff;
+}
+
+.table td a.btn-warning:hover {
+    background-color: #FFA000;
+}
+
+.table td a.btn-danger {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.table td a.btn-danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Alertas */
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+/* Flechas */
+.arrow-link {
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 20px;
+    color: #007bff;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.arrow-link:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
